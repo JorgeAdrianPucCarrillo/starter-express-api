@@ -1,0 +1,16 @@
+{
+    "attributes": [
+      {
+        "trait_type": "Test1",
+        "value": "Maltipoo"
+      },
+      {
+        "trait_type": "test1-2",
+        "value": "Mocha"
+      }
+    ],
+    "description": "test",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcvNdqn3DL4qZMBon4Mz36mznDTZh5uymzBCgAftjwBxn",
+    "name": "test"
+  }
+  

@@ -1,22 +1,33 @@
 {
-  "name": "starter-express-api",
+  "name": "yebowalletbackend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Yebo Custodial Waller API",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.17.2",
+    "nodemon": "^3.0.1"
   },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "@alch/alchemy-web3": "^1.4.7",
+    "@openzeppelin/contracts": "^4.9.3",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "http-status": "^1.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.4.3",
+    "web3": "^4.1.1"
   }
 }

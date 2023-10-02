@@ -1,11 +1,22 @@
-# starter-express-api
+# Yebo Wallet API
 
-This is the simplest possible nodejs api using express that responds to any request with: 
+## Requirements
+
+- Node.js 18.x
+- Yarn 1.22.x
+
+## Installation
+
+```bash
+$ yarn install
 ```
-Yo!
+
+## Running the app
+
+```bash
+# development
+$ yarn dev
+
+# production mode
+$ yarn start // Not implemented yet
 ```
-
-### Deploy it in 7 seconds: 
-
-[![Deploy to Cyclic](https://deploy.cyclic.app/button.svg)](https://deploy.cyclic.app/)
-
