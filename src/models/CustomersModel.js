@@ -31,7 +31,7 @@ const CustomersSchema = new mongoose.Schema({
     // Shoper or Seller/Creator
     type: {
         type: String,
-        required: true
+        default:"regular"
     }
 });
 

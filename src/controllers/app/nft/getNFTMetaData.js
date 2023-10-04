@@ -6,7 +6,7 @@ import NftMetaData from '../../../models/NftMetaDataModel.js';
 import NftModel from '../../../models/NFTModel.js';
 const getNFTMetaDataController = async (req, res) => {
     try {
-        const  id  = req.params.nftMetadata;
+        const  id  = req.params.nft; //nft metadata ID
         const data = await NftMetaData.findById(id);
         res.status(200).json(data);
     } catch (error) {

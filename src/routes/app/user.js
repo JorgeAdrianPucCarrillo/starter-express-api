@@ -3,7 +3,7 @@ import signupController from '../../controllers/app/user/signup.js';
 import signinController from '../../controllers/app/user/signin.js';
 import changePasswordController from '../../controllers/app/user/changePassword.js';
 import recoverPasswordController from '../../controllers/app/user/recoverPassword.js';
-import getMyNftsController from '../../controllers/app/user/getMyNfts.js';
+//import getMyNftsController from '../../controllers/app/user/getMyNfts.js';
 import {getMyProfileUserController, getMyProfileClientController,getMyProfileCustomerController} from '../../controllers/app/user/getMyProfile.js';
 import {markMyNotificationController,getMyNotificationUserController, getMyNotificationClientController,getMyNotificationCustomerController} from '../../controllers/app/user/getMyNotifications.js';
 
@@ -13,7 +13,7 @@ client.post('/signup',signupController);
 client.post('/signin',signinController);
 client.post('/change-password', changePasswordController);
 client.post('/recover-password', recoverPasswordController);
-client.get('/my-nfts', getMyNftsController);
+//client.get('/my-nfts', getMyNftsController);
 client.get('/profile/Client/:id', getMyProfileClientController);
 client.get('/profile/Customer/:id', getMyProfileCustomerController);
 client.get('/profile/User/:id', getMyProfileUserController);
